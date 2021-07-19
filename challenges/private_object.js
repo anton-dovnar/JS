@@ -4,7 +4,7 @@ const password = Symbol('password');
 const user = {
     [username]: 'privateuser',
     [password]: '12345',
-    age: 22
+    age: 22,
 };
 
 console.log(user.username);
